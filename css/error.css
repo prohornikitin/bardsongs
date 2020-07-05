@@ -1,0 +1,24 @@
+.verticalAlignMiddle {
+	display: flex;
+	vertical-align: middle;
+}
+
+.errorText {
+	margin: auto;
+	text-align: center;
+}
+
+.errorImg {
+	margin-right: 8%;
+}
+
+#error_container {
+	margin-top: 3%;
+	margin-bottom: 2%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+p {
+	font-size: 1.8rem;
+}

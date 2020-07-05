@@ -1,0 +1,61 @@
+div.form_item input {
+	display: block;
+	margin: auto;
+	margin-bottom: 2px;
+}
+
+a {
+	display: block;
+	margin: 10px
+}
+
+form {
+	text-align: center;
+}
+
+.form_item {
+    /*margin-top: 12px;*/
+}
+
+.form_item > *{
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.form_item * {
+    display: block;
+    margin: auto;
+    margin-bottom: 2px;
+}
+
+textarea {
+    width: 1000px;
+    height: 100px;
+}
+
+a {
+    display: block;
+    margin: 10px;
+}
+
+form {
+    text-align: center;
+}
+
+h4 {
+    margin: 0;
+    text-align: center;
+}
+
+section {
+    margin: 1%;
+    display: block;
+    padding: 1%;
+    background: #d9dabb;
+    border-radius: 5px;
+}
+
+
+input {
+
+}

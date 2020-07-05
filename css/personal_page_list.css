@@ -1,0 +1,32 @@
+article {
+	margin: 10px;
+	display: block;
+	padding: 5px;
+	/*width: 100%;*/
+	/*width: 500px;*/
+	background: #d9dabb;
+	border-radius: 5px;
+}
+
+
+article > a {
+	font-size: 1.5rem;
+	padding: 10px;
+}
+
+article > * {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+article img {
+	max-width: 150px;
+	/*height: 150px;*/
+	max-height: 150px;
+	border-radius: 5px;
+}
+
+
+
+
+

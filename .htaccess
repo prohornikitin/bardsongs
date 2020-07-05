@@ -1,0 +1,19 @@
+ErrorDocument 404 /Error.php?code=404
+ErrorDocument 500 /Error.php?code=500
+ErrorDocument 502 /Error.php?code=502
+ErrorDocument 503 /Error.php?code=503
+ErrorDocument 504 /Error.php?code=504
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} ^(.*\.php)$
+RewriteRule ^(.*)$ index.php?route=$1 [L,QSA]
+DirectoryIndex /index.php?route
+AddDefaultCharset UTF-8
+
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteRule ^(.*)$ index.php?route=$1 [L,QSA]
+# RewriteRule ^(.*)$.ico $1.ico [L,QSA]
+# RewriteRule ^(.*)$.png $1.png [L,QSA]
+# RewriteRule ^(.*)$.js $1.js [L,QSA]
+# RewriteRule ^(.*)$.css $1.css [L,QSA]

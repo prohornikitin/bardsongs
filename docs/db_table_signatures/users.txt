@@ -1,0 +1,8 @@
+CREATE TABLE users (
+	email VARCHAR(200) NOT NULL,
+	password VARCHAR(40) NOT NULL,
+	display_name VARCHAR(200) NOT NULL,
+	icon_url VARCHAR(200) DEFAULT NULL,
+	role VARCHAR(100) DEFAULT NULL,
+	PRIMARY KEY(email)
+);

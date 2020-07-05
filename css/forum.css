@@ -1,0 +1,18 @@
+div.form_item input {
+	display: block;
+	margin: auto;
+	margin-bottom: 2px;
+}
+
+a {
+	display: block;
+	margin: 10px;
+}
+
+form {
+	text-align: center;
+}
+
+h4 {
+	text-align: center;
+}

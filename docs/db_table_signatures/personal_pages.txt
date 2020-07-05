@@ -1,0 +1,7 @@
+CREATE TABLE personal_pages (
+	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	label VARCHAR(200) UNIQUE NOT NULL,
+	editor_email VARCHAR(200) DEFAULT NULL,
+	PRIMARY KEY(id),
+	FOREIGN KEY(editor_email) REFERENCES users(email)
+);
